@@ -1,5 +1,6 @@
 import React from "react";
 import Sdata from "./Sdata";
+import Card from "./Card";
 
 function Amazon(){
     return(
