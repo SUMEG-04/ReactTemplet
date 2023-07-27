@@ -37,7 +37,7 @@ Contributions are always welcome!
 
 #### API Reference
 
-#### Get all items
+#### Get weather info
 
 ```http
   api.openweathermap.org/data/2.5/weather?q=${citName}&units=metric&appid={API key}
@@ -58,3 +58,42 @@ https://openweathermap.org/current
 Here are some basic beginner friendly templets to go through like chnaging title, creating a form, login form,navbar,onclick event fire, props and many other
 
 
+#### API References
+
+#### Get pokemon info
+
+```http
+  https://pokeapi.co/api/v2/pokemon?limit=20
+  https://pokeapi.co/api/v2/pokemon/1
+```
+#### Axios installation
+
+```http
+  npm i axios
+```
+
+#### React-color-extractor
+
+```http
+  npm i react-color-extractor
+```
+```http
+  import { ColorExtractor } from 'react-color-extractor'
+  <ColorExtractor src=<link> getColors={colors => console.log(colors)}/>
+```
+#### React-router-dom
+
+```http
+  npm i react-router-dom
+```
+```http
+  import {BrowserRouter} from 'react-router-dom'
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+```
+#### Bootstrap
+
+```http
+  npm i bootstrap
+```
