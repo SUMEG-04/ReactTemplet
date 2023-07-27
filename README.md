@@ -1,8 +1,6 @@
-
 # Introduction
 
 This repo contain some of the reactjs templets that I created such as todo List,pokemon app, weather app, and many more check out my work to get started with react..
-
 
 ## React Installation
 
@@ -16,13 +14,10 @@ Install nodeJs with npm and create your first app
   cd <projectName>
   npm start
 ```
-    
+
 ## Contributing
 
 Contributions are always welcome!
-
-
-
 
 ## Portfolio
 
@@ -34,12 +29,11 @@ Contributions are always welcome!
 
 4.weatherapp
 
-
 #### API Reference
 
 #### Get weather info
 
-```http
+```bash
   api.openweathermap.org/data/2.5/weather?q=${citName}&units=metric&appid={API key}
 ```
 
@@ -47,7 +41,7 @@ Contributions are always welcome!
 | :-------- | :------- | :------------------------- |
 | `api_key` | `string` | **Required**. Your API key |
 
-To get current weather signup on openweathermap 
+To get current weather signup on openweathermap
 
 https://openweathermap.org/current
 
@@ -57,43 +51,47 @@ https://openweathermap.org/current
 
 Here are some basic beginner friendly templets to go through like chnaging title, creating a form, login form,navbar,onclick event fire, props and many other
 
-
 #### API References
 
 #### Get pokemon info
 
-```http
+```bash
   https://pokeapi.co/api/v2/pokemon?limit=20
   https://pokeapi.co/api/v2/pokemon/1
 ```
+
 #### Axios installation
 
-```http
+```bash
   npm i axios
 ```
 
 #### React-color-extractor
 
-```http
+```bash
   npm i react-color-extractor
 ```
-```http
+
+```bash
   import { ColorExtractor } from 'react-color-extractor'
   <ColorExtractor src=<link> getColors={colors => console.log(colors)}/>
 ```
+
 #### React-router-dom
 
-```http
+```bash
   npm i react-router-dom
 ```
-```http
+
+```bash
   import {BrowserRouter} from 'react-router-dom'
   <BrowserRouter>
     <App />
   </BrowserRouter>
 ```
+
 #### Bootstrap
 
-```http
+```bash
   npm i bootstrap
 ```
