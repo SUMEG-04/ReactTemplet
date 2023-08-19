@@ -53,20 +53,20 @@ Here are some basic beginner friendly templets to go through like chnaging title
 
 #### API References
 
-#### Get pokemon info
+##### Get pokemon info
 
 ```bash
   https://pokeapi.co/api/v2/pokemon?limit=20
   https://pokeapi.co/api/v2/pokemon/1
 ```
 
-#### Axios installation
+##### Axios installation
 
 ```bash
   npm i axios
 ```
 
-#### React-color-extractor
+##### React-color-extractor
 
 ```bash
   npm i react-color-extractor
@@ -77,7 +77,7 @@ Here are some basic beginner friendly templets to go through like chnaging title
   <ColorExtractor src=<link> getColors={colors => console.log(colors)}/>
 ```
 
-#### React-router-dom
+##### React-router-dom
 
 ```bash
   npm i react-router-dom
@@ -90,7 +90,7 @@ Here are some basic beginner friendly templets to go through like chnaging title
   </BrowserRouter>
 ```
 
-#### Bootstrap
+##### Bootstrap
 
 ```bash
   npm i bootstrap
